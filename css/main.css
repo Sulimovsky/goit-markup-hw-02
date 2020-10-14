@@ -1,0 +1,62 @@
+/* Главный цвет на странице  #757575; */
+/* Цвет заголовков h2-h6 #212121; */
+/* Цвет подсветки #2196F3; */
+:root {
+    --primary-text-color: #757575;
+    --heading-h2-h6-text-color: #212121; 
+    --backlight-color: #2196F3;
+}
+
+body {
+    color: var(--primary-text-color);
+}
+
+/* Header */
+.logo {
+    color: #212121;
+}
+
+.logo .logo-one {
+    color: #2196F3;
+}
+
+.list-nav .header-link {
+    color: #212121;
+}
+
+.header-link .location {
+    color: #2196F3;
+}
+
+.header-link .location:focus,
+.header-link .location:hover {
+    color: #212121;
+}
+
+.list-nav .header-link:hover,
+.list-nav .header-link:focus {
+    color: var(--backlight-color);
+}
+
+.item-link .contacts-link {
+    color: #757575;
+}
+
+.item-link .contacts-link:hover,
+.item-link .contacts-link:focus {
+    color: var(--backlight-color);
+}
+
+/* Hero */
+h1 {
+    color: #FFFFFF;
+    background-color: #757575;  /*для отображения заголовка*/
+}
+
+.service-order {
+    color: #FFFFFF;
+}
+
+
+
+
