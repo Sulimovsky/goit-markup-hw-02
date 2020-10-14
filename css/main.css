@@ -1,6 +1,8 @@
 /* Главный цвет на странице  #757575; */
-/* Цвет заголовков h2-h6 #212121; */
+/* Цвет заголовков h2-h6+цвет навигации #212121; */
 /* Цвет подсветки #2196F3; */
+/* Вторичный цвет+h1 #FFFFFF;*/
+/* Цвет контактов в футере rgba(255, 255, 255, 0.6); */
 :root {
     --primary-text-color: #757575;
     --heading-h2-h6-text-color: #212121; 
@@ -56,6 +58,38 @@ h1 {
 .service-order {
     color: #FFFFFF;
 }
+
+/* Quality */
+.item-quality h2 {
+    color: var(--heading-h2-h6-text-color);
+}
+
+/* Occupation */
+.occupation > h2 {
+    color: var(--heading-h2-h6-text-color);
+}
+
+/* Team */
+.team h3 {
+    color: var(--heading-h2-h6-text-color);
+}
+
+/* Footer */
+.item-address .street {
+    color: #FFFFFF;
+    background-color: var(--primary-text-color); /*для отображения цвета*/
+}
+
+.contacts-footer {
+    color: rgba(255, 255, 255, 0.6);            /*для отображения цвета*/
+    background-color: var(--primary-text-color);
+}
+
+
+
+
+
+
 
 
 
